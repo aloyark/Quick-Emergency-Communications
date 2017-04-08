@@ -1,0 +1,160 @@
+//Vars
+$font: Balthazar, serif;
+//[Vars]
+
+body {
+    background: #191919;
+    color: white;
+}
+
+.title-text {
+    color: white;
+    font-family: $font;
+    font-size: 50px;
+}
+
+
+//Buttons
+.police-btn {
+    border-radius: 6px;
+    border: none;
+    font-family: $font;
+    font-size: 20px;
+    background: #1370B2;
+    padding: 15px 28px 15px 28px;
+    text-decoration: none;
+}
+
+.police-btn:hover {
+    background: #2784C6;
+    text-decoration: none;
+}
+
+.medic-btn {
+    border-radius: 6px;
+    border: none;
+    font-family: $font;
+    font-size: 20px;
+    background: #A80000;
+    padding: 15px 28px 15px 28px;
+    text-decoration: none;
+}
+
+.medic-btn:hover {
+    background: #BC0000;
+    text-decoration: none;
+}
+
+.fire-btn {
+    border-radius: 6px;
+    border: none;
+    font-family: $font;
+    font-size: 20px;
+    background: #E05300;
+    padding: 15px 36px 15px 36px;
+    text-decoration: none;
+}
+
+.fire-btn:hover {
+    background: #EA5D00;
+    text-decoration: none;
+}
+
+.amber-btn {
+    border-radius: 6px;
+    border: none;
+    font-family: $font;
+    font-size: 20px;
+    background: #045A5A;
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+}
+
+.amber-btn:hover {
+    background: #0E6464;
+    text-decoration: none;
+}
+
+.hidden-btn {
+    border: none;
+    font-family: Courier New;
+    font-size: 25px;
+    color: white;
+    background: #191919;
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+}
+
+.misc-btn {
+    border-radius: 6px;
+    border: none;
+    font-family: $font;
+    font-size: 20px;
+    background: white;
+    padding: 15px 28px 15px 28px;
+    text-decoration: none;
+}
+//[Buttons]
+
+
+
+//Positioning
+.title-text-position {
+    text-align: center;
+}
+
+.police-btn-position {
+    position: absolute;
+    top: 55%;
+    right: 55%;
+}
+
+.medic-btn-position {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+}
+
+.fire-btn-position {
+    position: absolute;
+    bottom: 25%;
+    right: 55%;
+}
+
+.amber-btn-position {
+    position: absolute;
+    bottom: 25%;
+    left: 55%;
+}
+
+.back-btn-position {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.three-line-icon-position {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.center-object {
+    position: absolute;
+    left: 50%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-text-thing {
+    position: absolute;
+    left: 45%;
+}
+
+.center-thing {
+    position: absolute;
+    left: 48%;
+}
+//[Positioning]

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+        <script src="css/sweetalert-master/dist/sweetalert.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/sweetalert-master/dist/sweetalert.css">
+
+        <link href="../Balthazar-Regular.tff" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="js/index.js"></script>
+        <title>E-Mr-gen-c</title>
+    </head>
+
+    <body>
+        <button onclick="backButton()" target="targetframe" class="hidden-btn back-btn-position">&lt;</button>
+        <button onclick="settings()" target="targetframe" class="hidden-btn three-line-icon-position">☰</button>
+
+        <h1 class="center-text"> Reason for requesting police?</h1><br>
+
+        <input type="checkbox" name="Robbery" value="1" class="center-object"><p class="center-text-thing" style="position: absolute; top: 80px;">Robbery</p></input><br><br>
+        <input type="checkbox" name="Gun Fire" value="2" class="center-object"><p class="center-text-thing" style="position: absolute; top: 116px;">Gun Fire</p></input><br><br>
+        <input type="checkbox" name="Demostic Violence" value="3" class="center-object"><p class="center-text-thing" style="position: absolute; top: 154px; left: 555px;">Demostic Violence</p></input><br><br>
+        <input type="checkbox" name="Noise Complaint" value="4" class="center-object"><p class="center-text-thing" style="position: absolute; top: 192px; left: 570px;">Noise Complaint</p></input><br><br>
+        <input name="Other" placeholder="Problem" class="center-object"><p class="center-text-thing"style="position: absolute; top: 230px; left: 630px;">Other</p></input><br><br>
+        <button onclick="location.href='index.html'" target="targetframe" class="misc-btn center-thing">send</button><br><br>
+    </body>

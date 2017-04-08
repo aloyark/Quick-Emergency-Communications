@@ -1,0 +1,4 @@
+Guidlines to editing
+
+1. Use 4 spaces as tab
+2. Use cammelCase
